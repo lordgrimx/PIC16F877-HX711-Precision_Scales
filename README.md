@@ -27,7 +27,7 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
 ## Kurulum
 
 ### Donanım Bağlantıları
-![My Image](https://github.com/lordgrimx/PIC16F877-HX711-Precision_Scales/blob/main/deneme.gitignore/loadcell+read+part.png?raw=true)
+![My Image](https://github.com/lordgrimx/PIC16F877-HX711-Precision_Scales/blob/main/deneme.gitignore/proteus.png?raw=true)
 1. HX711 modülünü PIC16F877A mikrodenetleyiciye bağlayın:
     - HX711 VCC -> 5V güç kaynağı
     - HX711 GND -> Toprak (GND)
@@ -47,10 +47,10 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
    
 
 ### Yazılım Kurulumu
-1. MPLAB IDE ve XC8 kompileri bilgisayarınıza indirin ve kurun.
-2. Proje dosyalarını bilgisayarınıza indirin ve MPLAB IDE'de açın.
-3. Projeyi derleyin ve HEX dosyasını oluşturun.
-4. HEX dosyasını PIC16F877A mikrodenetleyiciye yüklemek için bir programlayıcı kullanın.
+1. Proteus ve CCS C Compiler bilgisayarınıza indirin ve kurun.
+2. Proje dosyalarını bilgisayarınıza indirin ve CCS C Compiler'de açın.
+3. Projeyi derleyin ve HEX dosyasını oluşturun yada Hali hazirdaki HEX dosyasini kullanin.
+4. HEX dosyasını PIC16F877A mikrodenetleyiciye yüklemek için bir Proteusu acin ve MCU'ya çift tıklayarak HEX dosyasının File Path'ini seçip simülasyonu başlatın.
 
 ## Kullanım
 1. Sistem çalıştırıldıktan sonra, HX711 modülünden gelen veriler mikrodenetleyici tarafından okunacak ve işlenecektir.
@@ -58,8 +58,8 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
 3. Projeyi genişletmek veya özelleştirmek için kodda değişiklikler yapabilirsiniz.
 
 ## Katkıda Bulunanlar
-- **İsim 1** - Geliştirici
-- **İsim 2** - Geliştirici
+- **Sabri Alperen KAYA/lordgrimx** - Geliştirici
+- **Semih GÜLŞEN/Semihhwastaken** - Geliştirici
 
 ## Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
