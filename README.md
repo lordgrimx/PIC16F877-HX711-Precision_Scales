@@ -20,19 +20,31 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
 ## Gereksinimler
 - PIC16F877A Mikrodenetleyici
 - HX711 Ağırlık Sensörü Modülü
-- MPLAB IDE ve XC8 Kompiler
+- Proteus ve CCS C Compiler
 - Breadboard ve bağlantı kabloları
 - Elektronik bileşenler (dirençler, kondansatörler, vb.)
 
 ## Kurulum
 
 ### Donanım Bağlantıları
+![Example Image](https://drive.google.com/file/d/1k1KyZprbw9oqyHxXOQsRtQh8oYvFkkwU/view?usp=sharing)
 1. HX711 modülünü PIC16F877A mikrodenetleyiciye bağlayın:
     - HX711 VCC -> 5V güç kaynağı
     - HX711 GND -> Toprak (GND)
-    - HX711 DT -> PIC16F877A RB0 pinine
-    - HX711 SCK -> PIC16F877A RB1 pinine
-2. Gerekli diğer bağlantıları yapın ve sistemi çalıştırmak için güç kaynağını bağlayın.
+    - HX711 DOUT -> PIC16F877A RC0 pinine
+    - HX711 SCK -> PIC16F877A RC1 pinine
+2. LCD(LM016L) ekranını bağlayın:
+    - LCD VSS -> Toprak (GND)
+    - LCD VDD -> 5V güç kaynağı
+    - LCD VEE -> Toprak (GND)
+    - LCD RS -> PIC16F877A RB1 pinine
+    - LCD RW -> PIC16F877A RB2 pinine
+    - LCD E -> PIC16F877A RB0 pinine
+    - D0 - D7 -> PIC16F877A RB4 - RB7 pinlerine
+3. Tare ve Rest butonlarını bağlayın:
+    - BTN TARE -> PIC16F877A RC2 pinine
+    - BTN RESET -> PIC16F877A RC3 pinine
+   
 
 ### Yazılım Kurulumu
 1. MPLAB IDE ve XC8 kompileri bilgisayarınıza indirin ve kurun.
