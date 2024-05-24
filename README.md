@@ -27,7 +27,7 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
 ## Kurulum
 
 ### Donanım Bağlantıları
-![Example Image](https://drive.google.com/file/d/1YCm5Nq7bMrUCwXHT8OjjrzBTg83f3wrn/view?usp=drive_link)
+![My Image](https://github.com/lordgrimx/PIC16F877-HX711-Precision_Scales/blob/main/deneme.gitignore/loadcell+read+part.png?raw=true)
 1. HX711 modülünü PIC16F877A mikrodenetleyiciye bağlayın:
     - HX711 VCC -> 5V güç kaynağı
     - HX711 GND -> Toprak (GND)
