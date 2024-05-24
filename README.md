@@ -1,6 +1,4 @@
-# PIC16F877-HX711-Precision_Scales
-A precision scale project designed in C language with HX711 integrated Loadcell using PIC16F877A microprocessor.
-# Proje Adı: PIC16F877A ile HX711 Kullanımı
+# Proje Adı: PIC16F877-HX711-Precision_Scales
 
 ## Proje Açıklaması
 Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensörü ile veri toplama ve ölçüm yapma üzerine odaklanmaktadır. Projede, ağırlık sensöründen gelen verileri mikrodenetleyici aracılığıyla okuyor ve işliyoruz.
