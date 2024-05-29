@@ -59,6 +59,9 @@ Bu proje, bir PIC16F877A mikrodenetleyici kullanarak bir HX711 ağırlık sensö
 ## Katkıda Bulunanlar | Contributors
 - **Sabri Alperen KAYA/lordgrimx** - Geliştirici | Developer
 - **Semih GÜLŞEN/Semihhwastaken** - Geliştirici | Developer
+- **Buğra BAYRAK** -Elektrik-Elektronik Mühendisliği | Proteus Designer
+- **Batuhan VARLIK** - Elektrik-Elektronik Mühendisliği | Proteus Designer
+- **Birol ERCAN** - Elektrik-Elektronik Mühendisliği | Proteus Designer
 
 ## Lisans | License
 Bu proje MIT Lisansı altında lisanslanmıştır | This project is licensed under the MIT License.
